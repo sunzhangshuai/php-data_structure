@@ -1,0 +1,21 @@
+{
+  "name": "php/data_structure",
+  "type": "library",
+  "description": "php数据结构合集",
+  "require": {
+    "psr/log": "^1.0.2",
+    "phpunit/phpunit": "^8.5"
+  },
+  "authors": [
+    {
+      "name": "zhangshuai1134",
+      "email": "zhangshuai1134@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "DataStructure\\": "src/" }
+  },
+  "config": {
+    "secure-http": false
+  }
+}
